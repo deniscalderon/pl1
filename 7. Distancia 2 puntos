@@ -1,0 +1,21 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std; 
+
+int main () 
+    
+{
+    
+float x1,y1,x2,y2,distancia;
+cout<<"introduzca las coordenadas del 1er punto: "; 
+cin>>x1>>y1;
+cout<<"introduzca las coordenadas del 2do punto: "; 
+cin>>x2>>y2;
+    
+distancia=sqrt(pow(x2-x1,2)+(pow(y2-y1,2)));
+    
+cout<<"la distancia es: "<<distancia<<endl;
+    
+return 0;
+}
