@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main ()
+
+{
+
+float compra,comprafinal;
+
+cout<<("Ingresa el importe de tu compra: "); cin>>compra;
+
+comprafinal=compra-(compra*15/100);
+
+cout<<"El importe final de tu compra es: "<<comprafinal<<endl;
+return 0;
+}
