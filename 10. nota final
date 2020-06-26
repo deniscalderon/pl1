@@ -1,0 +1,30 @@
+#include <iostream>
+#include<conio.h>
+using namespace std;
+
+int main ()
+
+{
+int n=0,c=0, totalpreguntas;
+
+char correcto, incorrecto, blanco,respuesta ;
+
+cout<<"introducir la cantidad de preguntas: ";  cin>>totalpreguntas;
+
+while(c<totalpreguntas){
+
+cout<<"introducir la respuesta: ";  cin>>respuesta;
+
+if(respuesta=correcto)
+n+5;
+else if (respuesta=incorrecto)
+n-1;
+else(respuesta=blanco);
+n+0;
+c+1;
+}
+
+cout<<"la nota final es: "<<n<<endl;
+
+return 0;
+}
