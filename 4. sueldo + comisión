@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main ()
+
+{
+
+float sueldo,venta1,venta2,venta3,sueldofinal;
+
+cout<<("Ingresa tu sueldo: "); cin>>sueldo;
+cout<<("Importe de venta 1: "); cin>>venta1;
+cout<<("Importe de venta 2: "); cin>>venta2;
+cout<<("Importe de venta 3: "); cin>>venta3;
+
+sueldofinal=sueldo+((venta1+venta2+venta3)*1/10);
+
+cout<<"Tu sueldo final es: "<<sueldofinal<<endl;
+return 0;
+}
