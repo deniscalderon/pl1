@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main ()
+
+{
+int horas;
+float minutos,minutos1;
+cout<<("Dame los minutos: "); cin>>minutos;
+horas=(minutos/60);
+minutos1=minutos-horas*60;
+cout<<"Las horas son: "<<horas<<" con "<<minutos1<<" minutos "<<endl;
+return 0;
+}
