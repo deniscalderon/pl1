@@ -5,7 +5,7 @@ using namespace std;
 int main ()
 {
 int celsius,conversion;
-cout<<("Damegrados centigrados ");
+cout<<("Dame los grados centigrados ");
 cin>>celsius;
 conversion=(celsius*9/5)+32;
 cout<<"La conversion a grados fahrenheit es: "<<conversion<<endl;
