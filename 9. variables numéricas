@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main ()
+
+{
+float A, B, C;
+
+cout<<"introducir el valor de A ";  cin>>A;
+cout<<"introducir el valor de B ";  cin>>B;
+
+C=A;
+A=B;
+B=C;
+
+cout<<"el valor de A es: "<<A<<endl;
+cout<<"el valor de B es: "<<B<<endl;
+
+
+return 0;
+}
