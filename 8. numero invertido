@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main ()
+
+{
+int numero,invertido=0,sobrante;
+cout<<"ingrese el número a invertir: "; cin >>numero;
+
+while ( numero>0){
+        sobrante=numero%10;
+        numero=numero/10;
+        invertido=invertido*10+sobrante;
+}
+cout<<"el numero invertido es: "<<invertido<<endl;
+
+return 0;
+}
