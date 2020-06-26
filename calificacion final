@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+int main ()
+
+{
+    
+float promedioforo,foro1,foro2,foro3,foro4,notatareas,notaproyecto,calificacion;
+
+cout<<("Ingresa la nota del foro 1: "); cin>>foro1;
+cout<<("Ingresa la nota del foro 2: "); cin>>foro2;
+cout<<("Ingresa la nota del foro 3: "); cin>>foro3;
+cout<<("Ingresa la nota del foro 4: "); cin>>foro4;
+promedioforo=(foro1+foro2+foro3+foro4)/4;
+cout<<("Ingresa la nota de las tareas: "); cin>>notatareas;
+cout<<("Ingresa la nota del proyecto: "); cin>>notaproyecto;
+
+calificacion=(promedioforo*20/100)+(notatareas*30/100)+(notaproyecto*50/100);
+
+cout<<"Tu calificacion final es: "<<calificacion<<endl;
+return 0;
+}
