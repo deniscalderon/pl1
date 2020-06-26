@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+int main ()
+{
+float numero1,numero2,numero3,promedio;
+cout<<("Dame el primer número: "); cin>>numero1;
+cout<<("Dame el segundo número: "); cin>>numero2;
+cout<<("Dame el tercer número: "); cin>>numero3;
+promedio=(numero1+numero2+numero3)/3;
+cout<<"El promedio de los 3 números es: "<<promedio<<endl;
+return 0;
+}
